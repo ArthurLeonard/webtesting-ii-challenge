@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+}
+.App {
+  text-align: center;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Dashboard {
+  background-color: #282c34;
+  height: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.Display {
+  height: 40rem;;
+  background-color: #61dafb;
+  display: flex;
+  justify-content: space-around;
+  background-image: url('https://www.saleshacker.com/wp-content/uploads/2015/06/sales-pitch-tips-baseball-throw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  height: 12rem;
+  width: 24rem;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+.display-button {
+  height: 12rem;
+  width: 24rem;
+  font-size: 4rem;
+  margin-top: 10rem;
+  background-color: lightgrey;
+  
+}
